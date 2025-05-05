@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131720;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.nav {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+.nav a {
+    float: left;
+    display: block;/*to style it using padding,other properites*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;/* 1rem is 16px */
+    text-transform: uppercase;
+
+}
+
+.nav .search-container {
+    float: right;
+}
+
+form {
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;/*vertically centered */
+    /*because flex direction is by defalut row 
+    whcih means main axis is horizonatal and the
+    cross axis is vertical so align aitems along the  
+    cross axis if it flex direction was column then 
+    cross axis becomes horizontal so align items along
+    the horizonatl */
+
+}
+
+input {
+    font: 15px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.thumbnail {
+   height: 350px; 
+   width: 250px;
+   border-radius: 19px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.card {
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30; 
+}
